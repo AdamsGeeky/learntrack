@@ -1,0 +1,31 @@
+name: Student registration
+description: Request to join the GeekInk learning cohort
+title: "Student registration: "
+labels: ["student-registration"]
+body:
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub username
+      placeholder: your-github-username
+    validations:
+      required: true
+  - type: input
+    id: display_name
+    attributes:
+      label: Display name (optional)
+      description: Use a name you are comfortable displaying publicly.
+  - type: input
+    id: cohort
+    attributes:
+      label: Cohort
+      placeholder: GeekInk Cohort
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Publication and privacy
+      options:
+        - label: I understand that public GitHub issues may be visible to anyone.
+          required: true

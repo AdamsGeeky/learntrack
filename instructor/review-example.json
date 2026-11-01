@@ -1,0 +1,20 @@
+{
+  "github_username": "studenthandle",
+  "assignment_id": "markdown-profile",
+  "status": "graded",
+  "score": 86,
+  "max_score": 100,
+  "rubric": {
+    "markdown_structure": 18,
+    "formatting": 9,
+    "lists_and_links": 9,
+    "tables": 9,
+    "code_and_images": 14,
+    "collapsible_sections": 14,
+    "readme_quality": 13
+  },
+  "publish_score": false,
+  "private_feedback": "Keep this record in the private instructor repository.",
+  "reviewed_by": "instructor-github-username",
+  "reviewed_at": "YYYY-MM-DD"
+}
