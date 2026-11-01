@@ -1,7 +1,7 @@
 # GEEKINK LEARNING TRACKER
 
-> **Learn. Build. Track. Grow.**
->
+>> **Learn. Build. Track. Grow.**
+
 > A practical learning space by **GeekInk Innovations Ltd.**
 
 Welcome! This repository is the main learning page for the GeekInk training cohort. Open this `README.md` whenever you visit the repository. It contains the course overview, lesson links, learning checklist, project brief, and submission instructions.
