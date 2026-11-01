@@ -21,7 +21,7 @@ Welcome! This repository is the main learning page for the GeekInk training coho
 
 ## Learning schedule
 
-| Time | Topic | Duration |
+| Time | Topic | Duration | 
 |---|---|---:|
 | 00:00–00:10 | Introduction to Markdown | 10 min |
 | 00:10–00:25 | Headings and text formatting | 15 min |
@@ -36,7 +36,7 @@ Welcome! This repository is the main learning page for the GeekInk training coho
 ## Lessons
 
 <details>
-<summary><strong>01 — Introduction to Markdown</strong></summary>
+<summary>01 — Introduction to Markdown</summary>
 
 Understand Markdown, `.md` files, common use cases, and developer documentation.
 
