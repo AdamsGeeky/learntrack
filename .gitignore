@@ -1,6 +1,0 @@
-# Private instructor review files must never be committed to the public course repository.
-instructor/reviews/**/*.json
-instructor/reviews/*.json
-# Local tooling
-.DS_Store
-*.log
