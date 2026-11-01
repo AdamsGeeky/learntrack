@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Submit Work · GeekInk</title><link rel="stylesheet" href="assets/style.css"></head><body><header class="top"><div class="wrap nav"><a class="brand" href="./">GEEK<span>INK</span> <small>LEARNING TRACKER</small></a><nav><a href="./">Dashboard</a><a href="./#course">Lessons</a></nav></div></header><main class="wrap narrow"><p class="eyebrow">STUDENT GUIDE</p><h1>Submit your work</h1><p>GeekInk uses GitHub pull requests so submissions are version-controlled, reviewable and connected to each student's GitHub identity.</p><ol class="steps"><li><b>Fork the course repository.</b><p>Open the repository on GitHub and select Fork.</p></li><li><b>Create your submission file.</b><p>Create <code>submissions/YOUR-GITHUB-USERNAME/markdown-profile.json</code> in your fork.</p></li><li><b>Complete the submission metadata.</b><p>Use the JSON example below. Include the link to your own project repository.</p></li><li><b>Open a pull request.</b><p>Target the original repository's <code>main</code> branch. Use the assignment submission PR template.</p></li><li><b>Wait for validation and instructor review.</b><p>GitHub Actions validates the file. The instructor reviews and merges accepted work.</p></li></ol><h2>Submission JSON</h2><pre><code>{
+  "github_username": "your-github-username",
+  "assignment_id": "markdown-profile",
+  "project_url": "https://github.com/your-name/my-developer-profile",
+  "notes": "I completed the required README sections.",
+  "submitted_at": "2026-11-01"
+}</code></pre><div class="notice"><b>Do not submit secrets or personal sensitive information.</b> Pull requests and files may be publicly visible depending on repository settings. Do not put passwords, API keys, phone numbers or private feedback in submission files.</div><h2>Progress tracking</h2><p>To record lesson progress, add <code>progress/YOUR-GITHUB-USERNAME.json</code> in your fork and open a separate pull request.</p><pre><code>{
+  "github_username": "your-github-username",
+  "completed_lessons": [
+    "01-introduction",
+    "02-formatting"
+  ],
+  "updated_at": "2026-11-01"
+}</code></pre><p><a class="btn" href="./">Back to dashboard</a></p></main><footer><div class="wrap"><strong>GEEKINK INNOVATIONS LTD.</strong></div></footer></body></html>
