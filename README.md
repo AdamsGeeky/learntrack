@@ -36,12 +36,7 @@ Welcome! This repository is the main learning page for the GeekInk training coho
 ## Lessons
 
 <details>
-<summary>01 — Introduction to Markdown</summary>
-
-Understand Markdown, `.md` files, common use cases, and developer documentation.
-
-[Open lesson](docs/lessons/01-introduction.html)
-
+<summary>[01 — Introduction to Markdown](docs/lessons/01-introduction.html)</summary>
 </details>
 
 <details>
