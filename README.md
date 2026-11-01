@@ -35,9 +35,9 @@ Welcome! This repository is the main learning page for the GeekInk training coho
 
 ## Lessons
 
-<details>
-<summary>[01 — Introduction to Markdown](docs/lessons/01-introduction.html)</summary>
-</details>
+[01 — Introduction to Markdown](docs/lessons/01-introduction.html)
+
+
 
 <details>
 <summary><strong>02 — Headings and text formatting</strong></summary>
